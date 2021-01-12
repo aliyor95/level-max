@@ -1,0 +1,201 @@
+.category .category-ul-1 {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    padding: 10px;
+}
+
+.category li:hover .category-ul-1 {
+    display: block;
+    background: #000;
+    z-index: 9;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.category li:hover .category-ul-1 a:hover {
+    color: #c00;
+    font-size: 20px;
+    background: #000;
+}
+
+.category .category-ul-2 {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0%;
+    padding: 10px;
+    width: 200%;
+}
+
+.category li:hover .category-ul-2 {
+    display: block;
+    background: #000;
+    z-index: 9;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.category li:hover .category-ul-2 a:hover {
+    color: #c00;
+    font-size: 20px;
+    background: #000;
+}
+
+
+.category .category-ul-3 {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0%;
+    padding: 10px;
+    width: 110%;
+}
+
+.category li:hover .category-ul-3 {
+    display: block;
+    background: #000;
+    z-index: 9;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.category li:hover .category-ul-3 a:hover {
+    color: #c00;
+    font-size: 20px;
+    background: #000;
+}
+
+.category-f .category-ul-1f {
+    position: absolute;
+    display: none;
+    top: 5%;
+    left: 60%;
+}
+
+.category-f li:hover .category-ul-1f {
+    display: block;
+    background: #000;
+    z-index: 9;
+    font-size: 18px;
+    line-height: 0px;
+    padding-top: 10px;
+}
+
+.category-f li:hover .category-ul-1f a:hover {
+    color: #c00;
+}
+
+.category-f .category-ul-2f {
+    position: absolute;
+    display: none;
+    top: 30%;
+    left: 60%;
+}
+
+.category-f li:hover .category-ul-2f {
+    display: block;
+    background: #000;
+    z-index: 9;
+    font-size: 18px;
+    line-height: 0px;
+    padding-top: 10px;
+}
+
+.category-f li:hover .category-ul-2f:hover {
+    color: #c00;
+}
+
+.category-f .category-ul-3f {
+    position: absolute;
+    display: none;
+    top: 38%;
+    left: 60%;
+}
+
+.category-f li:hover .category-ul-3f {
+    display: block;
+    background: #000;
+    z-index: 9;
+    font-size: 18px;
+    line-height: 0px;
+    padding-top: 10px;
+}
+
+.category-f li:hover .category-ul-3f:hover {
+    color: #c00;
+}
+
+@media (max-width: 575px) {
+    .category-f .category-ul-1f {
+        position: absolute;
+        display: none;
+        top: 50%;
+        left: 40%;
+    }
+
+    .category-f .category-ul-2f {
+        position: absolute;
+        display: none;
+        top: 63%;
+        left: 40%;
+    }
+
+    .category-f .category-ul-3f {
+        position: absolute;
+        display: none;
+        top: 67.7%;
+        left: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .category-f .category-ul-1f {
+        position: absolute;
+        display: none;
+        top: 32%;
+        left: 40%;
+    }
+
+    .category-f .category-ul-2f {
+        position: absolute;
+        display: none;
+        top: 64%;
+        left: 25%;
+    }
+
+    .category-f .category-ul-3f {
+        position: absolute;
+        display: none;
+        top: 69.7%;
+        left: 25%;
+    }
+}
+
+@media (max-width: 992px) {
+    .category-f .category-ul-1f {
+        position: absolute;
+        display: none;
+        top: 5.7%;
+        left: 66%;
+    }
+
+    .category-f .category-ul-2f {
+        position: absolute;
+        display: none;
+        top: 31.5%;
+        left: 66%;
+    }
+
+    .category-f .category-ul-3f {
+        position: absolute;
+        display: none;
+        top: 39.8%;
+        left: 66%;
+    }
+}
